@@ -1,0 +1,15 @@
+# module.requirements
+#
+# Requirements for the development environment.
+#
+#
+
+# Tests
+nose
+
+# Documents
+sphinx
+
+# Base
+
+# Other
