@@ -18,7 +18,11 @@
 #
 
 init:
-	pip install -r requirements.txt --use-mirrors
+	@sudo pip install -r requirements.txt --use-mirrors
 
 test:
-	nosetests tests
+	@nosetests tests
+
+clean:
+	@echo "Recursivly removing .pyc files."
+	@find . -name "*.pyc" -delete
